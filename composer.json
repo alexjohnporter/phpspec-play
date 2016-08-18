@@ -1,0 +1,22 @@
+{
+  "name": "alexubuntu/autoload-test",
+  "authors": [
+    {
+      "name": "Alex Porter",
+      "email": "alexporter1992@live.co.uk"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpspec/phpspec": "^3.0"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calculator\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+suites:
+  core:
+    namespace: Calculator
+    psr4_prefix: Calculator
+    src_path: src/Calculator
